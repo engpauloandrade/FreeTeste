@@ -1,7 +1,6 @@
-# Teste Frenet para aprimorar conhecimento em C# e .NET
+# Teste para aprimorar conhecimento em C# e .NET
 
 Esse teste foi criado para aprimorar suas habilidades com .NET e C# em geral. 
-Por favor, siga atentamente as instruições que estão no código e, caso tenha dúvidas, é só chamar!
 
 
 ### Para começar

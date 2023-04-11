@@ -1,7 +1,7 @@
-﻿using TesteFrenet.Api.Database;
-using TesteFrenet.Api.Models;
+﻿using FreeTeste.Api.Database;
+using FreeTeste.Api.Models;
 
-namespace TesteFrenet.Api.Services
+namespace FreeTeste.Api.Services
 {
     public class EmployeeService
     {

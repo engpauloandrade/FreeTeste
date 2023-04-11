@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Reflection.Emit;
-using TesteFrenet.Api.Models;
+using FreeTeste.Api.Models;
 
-namespace TesteFrenet.Api.Database
+namespace FreeTeste.Api.Database
 {
 
     public class ApiDbContext : DbContext

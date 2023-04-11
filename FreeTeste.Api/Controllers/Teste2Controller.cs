@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TesteFrenet.Api.Database;
-using TesteFrenet.Api.Models;
-using TesteFrenet.Api.Services;
+using FreeTeste.Api.Database;
+using FreeTeste.Api.Models;
+using FreeTeste.Api.Services;
 
-namespace TesteFrenet.Api.Controllers
+namespace FreeTeste.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

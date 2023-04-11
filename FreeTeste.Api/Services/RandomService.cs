@@ -1,4 +1,4 @@
-﻿namespace TesteFrenet.Api.Services
+﻿namespace FreeTeste.Api.Services
 {
     public class RandomService
     {

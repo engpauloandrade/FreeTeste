@@ -1,4 +1,4 @@
-﻿namespace TesteFrenet.Api.Models
+﻿namespace FreeTeste.Api.Models
 {
     public class ColorList
     {

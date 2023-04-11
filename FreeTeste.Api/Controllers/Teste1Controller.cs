@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TesteFrenet.Api.Services;
+using FreeTeste.Api.Services;
 
-namespace TesteFrenet.Api.Controllers
+namespace FreeTeste.Api.Controllers
 {
 
     /// Ao rodar o código abaixo o serviço deveria sempre retornar um número aleatório de 6 dígitos, mas ele fica retornando sempre o mesmo número.

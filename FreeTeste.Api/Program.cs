@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using TesteFrenet.Api.Database;
+using FreeTeste.Api.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 

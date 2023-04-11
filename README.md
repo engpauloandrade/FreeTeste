@@ -67,6 +67,13 @@ Tente separar seu projeto em camadas, abaixo está um exemplo:
 
 ![image](https://user-images.githubusercontent.com/81451506/231036067-25f11bd5-0fc2-443d-aea1-f17d70f5c9ae.png)
 
+
+Veja um pouco sobre Design Patterns
+
+```
+https://refactoring.guru/design-patterns
+```
+
 ### Dica #4 
 
 Realize os testes unitários

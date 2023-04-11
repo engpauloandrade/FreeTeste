@@ -4,10 +4,10 @@ using FreeTeste.Api.Services;
 namespace FreeTeste.Api.Controllers
 {
 
-    /// Ao rodar o código abaixo o serviço deveria sempre retornar um número aleatório de 6 dígitos, mas ele fica retornando sempre o mesmo número.
-    /// Faça as alterações para que o número retornado seja sempre diferente
-    /// Crie as injeções de dependências
-    /// Crie tratamentos de erro para a controller abaixo
+    // Ao rodar o código abaixo o serviço deveria sempre retornar um número aleatório de 6 dígitos, mas ele fica retornando sempre o mesmo número.
+    // Faça as alterações para que o número retornado seja sempre diferente
+    // Crie as injeções de dependências
+    // Crie tratamentos de erro para a controller abaixo
 
     [ApiController]
     [Route("[controller]")]

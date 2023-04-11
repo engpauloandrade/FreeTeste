@@ -29,13 +29,14 @@ Update-Database
 
 Esses comandos devem ser rodados no `Package Manager Console`:
 
+![image](https://user-images.githubusercontent.com/81451506/231037886-0a7a0eb4-4efc-45dd-a7bd-3e9f3f773b72.png)
 
-
+![image](https://user-images.githubusercontent.com/81451506/231038522-d627b933-9a95-4f51-a94e-5e7cc872495b.png)
 
 
 ### Conhecendo o projeto
 
-> Nós recomendamos que você utilize o Visual Studio 2022 (pode ser a versão community). Você também precisa do .NET 6 instalado, ok? Ah, não esquece de instalar o pacote de desenvolvimento para o ASP NET durante a instalação do Visual Studio.
+> Eu recomendo que você utilize o Visual Studio 2022 (pode ser a versão community). Você também precisa do .NET 6 instalado, ok? Ah, não esquece de instalar o pacote de desenvolvimento para o ASP NET durante a instalação do Visual Studio.
 
 Ao abrir o projeto no Visual Studio, você pode notar que se trata de um projeto Web API do ASP NET. Você pode se orientar pela pasta ```Controllers```. Dentro dela, cada Controller representa uma etapa do teste. Logo abaixo vamos falar mais sobre essas etapas e como você pode resolvê-las.
 
@@ -65,6 +66,13 @@ Tente utilizar um banco de dados diferente, o PostegreSQL é uma boa, o MySql ta
 Tente separar seu projeto em camadas, abaixo está um exemplo:
 
 ![image](https://user-images.githubusercontent.com/81451506/231036067-25f11bd5-0fc2-443d-aea1-f17d70f5c9ae.png)
+
+
+Veja um pouco sobre Design Patterns
+
+```
+https://refactoring.guru/design-patterns
+```
 
 ### Dica #4 
 

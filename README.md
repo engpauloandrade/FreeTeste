@@ -8,24 +8,64 @@ Esse teste foi criado para aprimorar suas habilidades com .NET e C# em geral.
 O primeiro passo é clonar esse repositório na sua máquina
 
 Escolha o local onde deseja clonar o projeto em sua máquina e, em seu GitBash, 
-digite/cole: `git clone https://github.com/engpauloandrade/FreeTeste.git`
+digite/cole: 
+
+```
+git clone https://github.com/engpauloandrade/FreeTeste.git
+```
 
 Para esse teste eu utilizei o SqlServer, mas você pode utilizar outro banco de dados.
-Está sendo utilizado o Entity Framework também, mas é bem simples de mexer com ele, abaixo estão os dois comandos mais utilizados:
+Está sendo utilizado o Entity Framework também, mas é bem simples de mexer com ele, abaixo estão os dois comandos mais utilizados para rodar as migrations:
 
-`Add-Migration TesteMigration1`
+```
+Add-Migration TesteMigration1
+```
 
 Após add a migration, será criada uma pasta com esse nome e, se tudo der certo, é só atualizar o banco de dados:
 
-`Update-Database`
+```
+Update-Database
+```
+
+Esses comandos devem ser rodados no `Package Manager Console`:
+
+![image](https://user-images.githubusercontent.com/81451506/231034852-31260633-3a36-430a-8310-9edfba9f159e.png)
+
 
 ### Conhecendo o projeto
 
 > Nós recomendamos que você utilize o Visual Studio 2022 (pode ser a versão community). Você também precisa do .NET 6 instalado, ok? Ah, não esquece de instalar o pacote de desenvolvimento para o ASP NET durante a instalação do Visual Studio.
 
+Ao abrir o projeto no Visual Studio, você pode notar que se trata de um projeto Web API do ASP NET. Você pode se orientar pela pasta ```Controllers```. Dentro dela, cada Controller representa uma etapa do teste. Logo abaixo vamos falar mais sobre essas etapas e como você pode resolvê-las.
 
 
+Pronto, tudo configurado, vamos ao que interessa.
 
+## Atividades propostas
 
+No código têm alguns comentários provocativos e a ideia deles é fazer você pensar em alguma solução para isso.
 
+Cada um está livre para desenvolver as soluções de acordo com o que desejar, mas vou deixar algumas dicas abaixo:
+
+### Dica #1
+
+Tem usar os conceitos de S.O.L.I.D, você pode encontrar eles aqui:
+
+```
+https://warcontent.com/principios-solid-imagens/
+```
+
+### Dica #2
+
+Tente utilizar um banco de dados diferente, o PostegreSQL é uma boa, o MySql também.
+
+### Dica #3
+
+Tente separar seu projeto em camadas, abaixo está um exemplo:
+
+![image](https://user-images.githubusercontent.com/81451506/231036067-25f11bd5-0fc2-443d-aea1-f17d70f5c9ae.png)
+
+### Dica #4 
+
+Realize os testes unitários
 

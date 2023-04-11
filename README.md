@@ -19,6 +19,12 @@ Após add a migration, será criada uma pasta com esse nome e, se tudo der certo
 
 `Update-Database`
 
+### Conhecendo o projeto
+
+> Nós recomendamos que você utilize o Visual Studio 2022 (pode ser a versão community). Você também precisa do .NET 6 instalado, ok? Ah, não esquece de instalar o pacote de desenvolvimento para o ASP NET durante a instalação do Visual Studio.
+
+
+
 
 
 

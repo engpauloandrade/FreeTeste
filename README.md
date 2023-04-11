@@ -29,8 +29,9 @@ Update-Database
 
 Esses comandos devem ser rodados no `Package Manager Console`:
 
+![image](https://user-images.githubusercontent.com/81451506/231037886-0a7a0eb4-4efc-45dd-a7bd-3e9f3f773b72.png)
 
-
+![image](https://user-images.githubusercontent.com/81451506/231037969-641f9fa7-dada-43f6-9bbc-a125391b63cf.png)
 
 
 ### Conhecendo o projeto

@@ -36,7 +36,7 @@ Esses comandos devem ser rodados no `Package Manager Console`:
 
 ### Conhecendo o projeto
 
-> Nós recomendamos que você utilize o Visual Studio 2022 (pode ser a versão community). Você também precisa do .NET 6 instalado, ok? Ah, não esquece de instalar o pacote de desenvolvimento para o ASP NET durante a instalação do Visual Studio.
+> Eu recomendo que você utilize o Visual Studio 2022 (pode ser a versão community). Você também precisa do .NET 6 instalado, ok? Ah, não esquece de instalar o pacote de desenvolvimento para o ASP NET durante a instalação do Visual Studio.
 
 Ao abrir o projeto no Visual Studio, você pode notar que se trata de um projeto Web API do ASP NET. Você pode se orientar pela pasta ```Controllers```. Dentro dela, cada Controller representa uma etapa do teste. Logo abaixo vamos falar mais sobre essas etapas e como você pode resolvê-las.
 

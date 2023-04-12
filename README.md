@@ -19,6 +19,8 @@ Instale o banco de dados na sua máquina, configure o ```appsettings.json``` no 
 
 ![image](https://user-images.githubusercontent.com/81451506/231345324-15906ebb-1757-4da5-ac38-06fcbb4d0057.png)
 
+> Após configurar o banco de dados, você já conseguirá rodar a migration em seu projeto.
+
 Está sendo utilizado o Entity Framework também, mas é bem simples de mexer com ele, abaixo estão os dois comandos mais utilizados para rodar as migrations:
 
 ```

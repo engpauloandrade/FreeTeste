@@ -14,7 +14,11 @@ digite/cole:
 git clone https://github.com/engpauloandrade/FreeTeste.git
 ```
 
-Para esse teste eu utilizei o SqlServer, mas você pode utilizar outro banco de dados.
+Para esse teste eu utilizei o ```SqlServer```, mas você pode utilizar outro banco de dados.
+Instale o banco de dados na sua máquina, configure o ```appsettings.json``` no seu projeto:
+
+![image](https://user-images.githubusercontent.com/81451506/231345324-15906ebb-1757-4da5-ac38-06fcbb4d0057.png)
+
 Está sendo utilizado o Entity Framework também, mas é bem simples de mexer com ele, abaixo estão os dois comandos mais utilizados para rodar as migrations:
 
 ```

@@ -2,6 +2,9 @@
 
 Esse teste foi criado para aprimorar suas habilidades com .NET e C# em geral. 
 
+O intuíto desse teste é fazer com que você se desenvolva, aprenda detalhes de projeto,
+aprenda enxergar novas soluções para códigos já feitos, não se preocupe e faça no seu tempo.
+
 
 ### Para começar
 

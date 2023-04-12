@@ -7,7 +7,6 @@ namespace FreeTeste.Api.Services
     // A injeção da classe ApiDbContext está correta?
     // Não seria melhor injetar uma interface? Como ficaria? Para que servem as interfaces?
     // Não seria ideal colocar uma paginação? Eu passo a pagina 1 e a quantidade de cores por página, assim para página 2 e etc
-    // Que tal melhorar essa Api? O tipo "ColorList" em public ColorList GetColorsList() pode ser substituido? Pelo que?
     public class ColorService
     {
         ApiDbContext _dbContext;
@@ -16,6 +15,7 @@ namespace FreeTeste.Api.Services
             this._dbContext = dbContext;
         }
 
+        // Que tal melhorar essa Api? O tipo "ColorList" em public ColorList GetColorsList() pode ser substituido? Pelo que?
         public ColorList GetColorsList()
         {
             return new ColorList() { Colors = _dbContext.Colors.ToList() };

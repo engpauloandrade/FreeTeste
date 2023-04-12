@@ -28,9 +28,10 @@ namespace FreeTeste.Api.Controllers
         }
 
         [HttpGet("employees")]
-        public EmployeeList GetEmployees() // public ColorList é correto de usar? E se usarmos Public IActionResult? O que mudaria? Para que serve?
+        public EmployeeList GetEmployees() // public EmployeeList é correto de usar? E se usarmos Public IActionResult? O que mudaria? Para que serve?
         {
-            // E se colocarmos um Try-Catch, seria melhor? 
+            // E se colocarmos um Try-Catch, não seria melhor?
+
             // Aqui estamos instanciando a classe EmployeeService, e se injetarmos ela? Não seria melhor?
             // Se optar por injetar, vai fazer igual a do banco de dados ou é melhor criar uma interface?
             var employeeService = new EmployeeService(_dbContext);
@@ -40,7 +41,7 @@ namespace FreeTeste.Api.Controllers
         }
 
 
-        // Eu estou utilizando o HttpPost para atualizar um funcionário, está correto? Não? Sim?
+        // Eu estou utilizando o [HttpPost] para atualizar um funcionário, está correto? Não? Sim?
         // Aqui as injeções de dependências estão de acordo?
         // Estou utilizando [FromQuery], isso está correto? Está mostrando duas vezes o campo Id, como deixar só 1?
         // Você já ouviu falar em classes DTO? AutoMapper?

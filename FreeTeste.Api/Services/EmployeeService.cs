@@ -5,6 +5,8 @@ namespace FreeTeste.Api.Services
 {
     public class EmployeeService
     {
+        //As mesmas questões anteriores se aplicam para cá
+        
         ApiDbContext _dbContext;
         public EmployeeService(ApiDbContext dbContext)
         {

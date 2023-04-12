@@ -18,7 +18,7 @@ Para esse teste eu utilizei o SqlServer, mas você pode utilizar outro banco de 
 Está sendo utilizado o Entity Framework também, mas é bem simples de mexer com ele, abaixo estão os dois comandos mais utilizados para rodar as migrations:
 
 ```
-Add-Migration TesteMigration1
+Add-Migration Testando
 ```
 
 Após add a migration, será criada uma pasta com esse nome e, se tudo der certo, é só atualizar o banco de dados:

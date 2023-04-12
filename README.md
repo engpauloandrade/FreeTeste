@@ -5,19 +5,28 @@ Esse teste foi criado para aprimorar suas habilidades com .NET e C# em geral.
 O intuíto desse teste é fazer com que você se desenvolva, aprenda detalhes de projeto,
 aprenda enxergar novas soluções para códigos já feitos, não se preocupe e faça no seu tempo.
 
+## Para começar
+O primeiro passo é criar uma **cópia** deste repositório. Por favor, perceba que fazer uma cópia é diferente de realizar um clone ou fork. Siga os passos abaixo para fazer a cópia:
 
-### Para começar
-
-#### O primeiro passo é clonar esse repositório na sua máquina.
-
-Escolha o local onde deseja clonar o projeto em sua máquina e, em seu GitBash, 
-digite/cole: 
-
+- Crie um novo repositório em sua conta do GitHub. Dê o nome que desejar.
+- Abra seu client do git e siga os comandos:
 ```
-git clone https://github.com/engpauloandrade/FreeTeste.git
+git clone --bare https://github.com/engpauloandrade/FreeTeste.git
+```
+Esse comando gera uma cópia do repositório do teste em seu computador. Agora, continue com os comandos
+```
+cd FreeTeste.git
+git push --mirror https://github.com/SEUSUARIO/FreeTeste.git
+```
+Note que você precisa alterar o SEUUSUARIO pelo seu username do GitHub, utilizado para criar o repositório no primeiro passo.
+Você pode apagar o diretório ```FreeTeste.git``` que foi criado em seu computador.
+
+Tudo certo: você possui um repositório em seu nome com tudo que precisa para começar responder seu teste. Agora sim, faça o clone (git clone) em sua máquina e você está pronto para trabalhar.
+```
+git clone https://github.com/SEUSUARIO/FreeTeste.git
 ```
 
-#### O segundo passo é criar um repositório no seu GitHub e subir uma cópia desse projeto lá.
+> Lembre-se: NÃO gere um Fork do repositório. Siga os passos acima para copiar o repositório para sua conta.
 
 
 Para esse teste eu utilizei o ```SqlServer```, mas você pode utilizar outro banco de dados.

@@ -8,7 +8,7 @@ aprenda enxergar novas soluções para códigos já feitos, não se preocupe e f
 
 ### Para começar
 
-O primeiro passo é clonar esse repositório na sua máquina
+#### O primeiro passo é clonar esse repositório na sua máquina.
 
 Escolha o local onde deseja clonar o projeto em sua máquina e, em seu GitBash, 
 digite/cole: 
@@ -16,6 +16,9 @@ digite/cole:
 ```
 git clone https://github.com/engpauloandrade/FreeTeste.git
 ```
+
+#### O segundo passo é criar um repositório no seu GitHub e subir uma cópia desse projeto lá.
+
 
 Para esse teste eu utilizei o ```SqlServer```, mas você pode utilizar outro banco de dados.
 Instale o banco de dados na sua máquina, configure o ```appsettings.json``` no seu projeto:
